@@ -29,11 +29,54 @@ header{
     text-decoration: none;
     align-items: center;
     display: inline;
-    
 }
 li a {
     text-decoration: none;
     margin-right: 20px;
     color: white;
     font-size: 15px;
+}
+/* .banner-img {
+   
+} */
+.banner-img img {
+    position: absolute;
+    top: 60%;
+    left: 33%;
+    transform: translateY(-50%);
+    animation-name: Appearance;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+@-webkit-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+  
+  @-o-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+  
+  @-moz-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+  
+  @keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.mini-contacts {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 900px;
+    margin-top: -150px;
+    height: 150px;
+    padding: 20px;
+    transform: translateY(-50%);
+    animation-name: Appearance;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
 }
