@@ -1,33 +1,34 @@
+/* head */
 *{
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Kanit', sans-serif;
 }
-header{
-    display: flex;
-    background-image: url("./images/big_image_1.jpg");
-    background-size: 1349px 900px;
-    height: 900px;
+.header {
+    margin-top: -39px;
+}
+video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
 }    
 .header h1 {
+    position: relative;
+    top: 57px;
+    left: 50px;
     color: white;
-    margin: 20px 0px 0px 100px;
     font-size: 25px;
     letter-spacing: 5px;
 }
-.header{
-    display: flex;
-}
 .header ul {
     position: absolute;
-    left:62%;
-    margin-top: 30px;
+    top: 30px;
+    left: 67%;
 }
 .header li {
     list-style: none;
     text-decoration: none;
-    align-items: center;
     display: inline;
 }
 li a {
@@ -67,19 +68,20 @@ li a {
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
+/* всплывающие окно контактов */
 .mini-contacts {
     display: flex;
     background-color: black;
     color: white;
     width: 900px;
-    margin-top: -120px;
-    height: 170px;
-    padding: 20px;
+    height: 154px;
+    padding: 27px;
     transform: translateY(-50%);
     animation-name: Appearance;
     animation-duration: 2s;
     animation-timing-function: cubic-bezier(.1,-.6,.2,0);
     padding-top: 30px;
+    border: 4px solid white;
 }
 .phone a{
     text-decoration: none;
@@ -89,7 +91,7 @@ li a {
 .phone {
     width: 300px;
     font-size: 14px;
-    margin: 10px;
+    margin: px;
 }
 .phone img {
     margin-bottom: -13px;
@@ -101,7 +103,7 @@ li a {
 .clock p{
     font-size: 14px;
     padding-left: 43px;
-    white-space: pre;
+    /* white-space: pre; */
 }
 .clock a {
     text-decoration: none;
@@ -111,39 +113,264 @@ li a {
     top:-15px;
 }
 .clock img {
-    margin-top: 13px;
+    margin-top: 5px;
     margin-bottom: 1px;
 }
 .clock {
-    margin-right: 10px;
+    margin-right: 23px;
 }
 .location a{
     text-decoration: none;
     color: white;
     font-size: 15px;
     position: relative;
-    top:-15px;
+    top:-28px;
 }
-/* .service {
-    margin-top: -150px;
-} */
+/* прайс */
+.main-service{
+    margin-top: -132px;
+}
 .service {
-    margin-top: -13px;
+    margin-top: 130px;
     margin-bottom: 35px;
 }
 .service h1{
     font-size: 55px;
     position: relative;
     left: 34%;
-    top: 20%;
 }
 .services {
     display: flex;
-    margin-left: 150px;
+    margin-left: 100px;
 }
-.haircut {
+.haircut , .complex {
     margin-right: 40px;
 }
-.haircut td {
-    
+.services h2 {
+    margin-bottom: 5px;
+    text-decoration:underline;
+}
+.service-name{
+    width: 250px;
+    padding: 5px;
+}
+.service-name1 {
+    width: 300px;
+    padding: 5px;
+}
+/* особенности барберов */
+.specifics {
+    padding-top: 150px;
+    text-align: center;
+
+}
+.specifics h5 {
+    width: 813px;
+    margin-left: 278px;
+    font-size: 17px;
+    padding: 15px 15px;
+    font-weight: lighter;
+}
+.specifics h1 {
+    font-size: 55px;
+}
+.specific {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.specific div {
+    width: 338px;
+    height: 277px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #e6e6e6;
+}
+.specific div:hover {
+    box-shadow: 0 2px 40px -3px rgb(0, 0, 0, 80%);
+}
+.specifics-head {
+    font-weight: 200;
+    text-align: center;
+}
+.specifics-p {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+/* скидка */
+.discount {
+    background-image: url("images/image_discount.jpg");
+    background-size: 1349px 500px;
+    height: 500px;
+}
+.discount-text {
+    text-align: center;
+    margin-top: 150px;
+}
+.discount-text h4 {
+    font-size: 22px;
+    color: white;
+}
+.discount-text h1 {
+    color: white;
+    font-size: 40px;
+}
+.discount-button {
+    position: relative;
+    left: 39%;
+    margin: 20px;
+}
+.discount-button button {
+    background-color: black;
+    color: white;
+    width: 256px;
+    height: 66px;
+    font-size: 28px;
+}
+/* footer */
+footer {
+    background-color: #c7c0c0;
+}
+.footer_contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_contacts img {
+    width: 100px;
+    height: 100px;
+    margin: 20px 10px; 
+    padding: 10px;
+}
+.footer_phone {
+    margin-top :20px;
+}
+.footer_phone a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    left: 44%;
+}
+.footer_phone p {
+    position: relative;
+    left: 44%;
+}
+small {
+    position: relative;
+    left: 44%;
+    color: black;
+}
+
+/* барбери */
+.barber {
+    background-image: url('./images/fon-team.png');
+    margin-top: -126px;
+}
+.barber1, .barber2, .barber3, .barber4{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+}
+.barber1:hover , .barber2:hover , .barber3:hover , .barber4:hover {
+    box-shadow: 0 2px 40px -3px rgb(0, 0, 0, 80%);
+}
+.barber img {
+    width: 378px;
+    height: 500px;
+    margin: 15px;
+    padding: 10px;
+}
+.barber1 {
+    background-color: #DCDCDC;
+    width: 900px;
+    margin: 20px;
+    margin-top: 100px;
+}
+.barber1 div {
+    width: 500px;
+}
+.barber1 h3 {
+    margin: 10px 0px;
+    font-size: 35px;
+}
+.barber1 div {
+    margin-top: 80px;
+}
+.barber1 button {
+    height: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.barber2 {
+    background-color: #DCDCDC;
+    width: 900px;
+    margin: 20px;
+    position: relative;
+    left:30%;
+}
+.barber2 div {
+    width: 500px;
+}
+.barber2 h3 {
+    margin: 10px 0px;
+    font-size: 35px;
+}
+.barber2 div {
+    margin-top: 80px;
+}
+.barber2 button {
+    height: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.barber3 {
+    background-color: #DCDCDC;
+    width: 900px;
+    margin: 20px;
+}
+.barber3 div {
+    width: 500px;
+}
+.barber3 h3 {
+    margin: 10px 0px;
+    font-size: 35px;
+}
+.barber3 div {
+    margin-top: 80px;
+}
+.barber3 button {
+    height: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.barber4 {
+    background-color: #DCDCDC;
+    width: 900px;
+    margin: 20px;
+    position: relative;
+    left:30%;
+}
+.barber4 div {
+    width: 500px;
+}
+.barber4 h3 {
+    margin: 10px 0px;
+    font-size: 35px;
+}
+.barber4 div {
+    margin-top: 80px;
+}
+.barber4 button {
+    height: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    margin: 20px 0px;
 }
