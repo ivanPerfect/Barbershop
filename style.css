@@ -35,7 +35,7 @@ li a {
     text-decoration: none;
     margin-right: 20px;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
 }
 .header li a:hover {
     color: rgb(173, 118, 14);
@@ -373,4 +373,8 @@ small {
     font-size: 15px;
     font-weight: 900;
     margin: 20px 0px;
+}
+/* academy */
+.academy {
+    background-image: url('./images/academy.jpg');
 }
