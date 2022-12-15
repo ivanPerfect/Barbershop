@@ -376,5 +376,52 @@ small {
 }
 /* academy */
 .academy {
-    background-image: url('./images/academy.jpg');
+    width: 500px;
+    position: relative;
+    left: 30%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    margin-top: -20px;
 }
+.academy h3 {
+    font-size: 22px;
+    margin: 15px 0px;
+}
+.academy h1 {
+    font-size: 34px;
+    margin: 15px 0px;
+}
+.academy button {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.academy button a {
+    text-decoration: none;
+    color: black;
+}
+.academy button:hover {
+    box-shadow: 0 2px 40px -3px rgb(0, 0, 0, 80%);
+    background-color: rgb(14, 14, 14);
+}
+.academy button a:hover {
+    color: white;
+}
+.academy1 {
+    width: 900px;
+    position: relative;
+    left: 13%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.academy2 {
+    background-image: url('./images/academy1.jpg');
+    background-size: 1260px;
+    height: 500px;
+}
+
