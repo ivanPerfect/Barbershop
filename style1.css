@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* logo */
+header {
+    display: flex;
+    padding: 15px;
+}
+.logo {
+    padding-top: 9px;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+.slogan {
+    padding: 10px;
+    border-left: 3px solid black;
+    width: 135px;
+}
+/* name */
+.name {
+    height: 646px;
+    background-image: url("./img/bgc.png");
+    background-size:1349px 646px;
+}
+.tag-name {
+    position: relative;
+    width: 1000px;
+    left: 25%;
+    top: 72%;
+    font-size: 64px;
+    color: white;
+    font-weight: 700;
+}
+/* коротко про спейс */
+.space {    
+    display: flex;
+    height: 400px;
+}
+.space h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    border-top: 3px solid black;
+    padding: 20px;
+    margin-top: 150px;
+    margin-left: 180px;
+    width: 300px;
+}
+.space-text {
+    display: flex;
+    position: relative;
+    left: 15%;
+    top: 20%;
+    width: 400px;
+    height: 230px;
+    flex-wrap: wrap;
+}
+.space-text div {
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 115px;
+    font-weight: 700;
+    padding: 10px;
+}
+.space-text h3 {
+    font-size: 35px;
+}
+.space-text1 {
+    border-right: 2px solid black;
+}
+.space-text2 {
+    border-bottom: 2px solid black;
+}
+.space-text3 {
+    border-top: 2px solid black;
+}
+.space-text4 {
+    border-left: 2px solid black;
+}
+/*  */
+.img {
+    padding: 20px;
+    display: flex;
+}
+.image {
+    width: 700px;
+    padding: 5px;
+    position: relative;
+    left: 6%;
+}
+.img1 {
+    width: 580px;
+    height: 200px;
+    padding: 5px;
+}
+.img2 {
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+}
+.img3 {
+    width: 327px;
+    height: 200px;
+    padding: 5px;
+    position: relative;
+    top: -100px;
+}
+.image button {
+    position: relative;
+    top: -93px;
+    left: 260px;
+    width: 314px;
+    height: 78px;
+    font-size: 22px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.img-text {
+    margin-top: 100px;
+    width: 500px;
+    padding: 5px;
+}
+.img-text h1 {
+    text-align: center;
+    width: 420px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.img-text p {
+    font-size: 20px;
+    width:420px;
+}
+/* service */
+.service {
+    text-align: center;
+}
+.service h1 {
+    font-size: 45px;
+}
+.service h4 {
+    font-size: 20px;
+}
+.services {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 26px;
+}
+.services div {
+    width:350px;
+    height: 470px;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(247, 247, 247);
+}
+.services img {
+    width: 60px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 20px;
+    margin-bottom:25px;
+    background-color: rgb(124, 124, 124);
+    border-radius: 25px;
+}
+.services h4 {
+    font-size: 25px;
+}
+.services p {
+    font-size: 17px;
+    padding: 5px;
+}
+.services ul {
+    padding: 2px;
+}
+.services li {
+    font-size:17px;
+    padding: 2px;
+}
+.service1 span {
+    position: relative;
+    top: 50px;
+    left:83px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.service1 button {
+    position: relative;
+    left: 58px;
+    top: 64px;
+    width: 200px;
+    height: 40px;
+    color: rgb(124, 124, 9);
+    border-radius: 10px;
+    font-weight: 900;
+}
+.service2 span {
+    position: relative;
+    top: 28px;
+    left:83px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.service2 button {
+    position: relative;
+    left: 58px;
+    top: 45px;
+    width: 200px;
+    height: 40px;
+    color: rgb(124, 124, 9);
+    border-radius: 10px;
+    font-weight: 900;
+}
+.service3 span {
+    position: relative;
+    top: 50px;
+    left:83px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.service3 button {
+    position: relative;
+    left: 58px;
+    top: 64px;
+    width: 200px;
+    height: 40px;
+    color: rgb(124, 124, 9);
+    border-radius: 10px;
+    font-weight: 900;
+}
+.benefits {
+    display: flex;
+}
+.benefits-image {
+    margin: 20px;
+    margin-left: 125px;
+}
+.benefits-image img {
+    width: 700px;
+    height: 350px;
+}
+.benefit-text {
+    background-color: white;
+    height: 150px;
+    position: relative;
+    left: -150px;
+    top: 81px;
+    width: 700px;
+}
+.benefit-text h1 {
+    padding: 10px;
+    font-size: 30px;
+    margin: 5px;
+}
+.benefit-text p {
+    padding: 6px;
+    font-size: 20px;
+    margin: 6px;
+}
+.benefits-text {
+    display: flex;
+    margin: 10px;
+    margin-left: 150px;
+}
+.benefits-text div{
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+/*  */
+.input h1, h2 {
+    text-align: center;
+}
+.form {
+    padding: 15px;
+    margin-top: 30px;
+    position: relative;
+    width: 500px;
+    left: 35%;
+    background-color: rgba(82, 80, 80, 0.15);;
+    margin-top: 50px;
+}
+.input {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form input {
+    width: 430px;
+    margin: 10px;
+    margin-left: 21px;
+    padding: 10px;
+    height: 50px;
+}
+.form button {
+    margin-left: 20px;
+    width: 430px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(124, 124, 0);
+}
+footer {
+    height: 70px;
+}
+small button {
+    font-size: 13px;
+    margin-right: 20px;
+    font-weight: 900;
+    border: none;
+    background-color: white;
+}
+small {
+    position: relative;
+    left: 68%;
+    top:20%;
+}
+
+@media (max-width: 640px) {
+    header {
+        width: 640px;
+    }
+    .name {
+        height: 646px;
+        background-image: url("./img/bgc.png");
+        background-size:640px 646px;
+        background-repeat: no-repeat;
+    }
+    .tag-name {
+        display: none;
+    }
+    /*  */
+    .space {
+        width:640px;
+        display:list-item;
+        height: 600px;
+    }
+    .space-logo {
+        margin-left: -150px;
+    }
+    .space-text {
+        display: inline;
+        position: relative;
+        top:20px
+    }
+    .space-text div {
+        font-size: 12px;
+        text-align: center;
+        align-items: center;
+        width: 500px;
+        height: 70px;
+        font-weight: 700;
+        padding: 10px;
+        border: none;
+    }
+    .space-text h3 {
+        font-size: 30px;
+        width: 200px;
+        border-right: 2px solid black;
+    }
+    .space-text p {
+        text-align:left;
+        position: relative;
+        left: 207px;
+        top: -24px;
+    }
+    /*  */
+    .img {
+        display: block;
+    }
+    .image {
+        width: 600px;
+        padding: 5px;
+        position: relative;
+        left: 6%;
+    }
+    .img1 {
+        width: 464px;
+        height: 200px;
+        padding: 5px;
+    }
+    .img2 {
+        width: 186px;
+        height: 199px;
+        padding: 5px;
+    }
+    .img3 {
+        width: 273px;
+        height: 130px;
+        padding: 5px;
+        position: relative;
+        top: -66px;
+    }
+    .image button {
+        position: relative;
+        top: -64px;
+        left: 195px;
+        width: 262px;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 25px;
+        font-weight: 600;
+    }
+    .img-text {
+        margin-top: -12px;
+        width: 500px;
+        padding: 5px;
+    }
+    .img-text h1 {
+        text-align: center;
+        width: 420px;
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+    .img-text{
+        margin-left: 58px;
+    }
+    .img-text p {
+        font-size: 16px;
+        width:420px;
+    }
+    /*  */
+    .service {
+        text-align: center;
+    }
+    .service h1 {
+        font-size: 40px;
+    }
+    .service h4 {
+        font-size: 16px;
+    }
+    .services {
+        display: flex;
+        margin-left: -19px;
+        margin-top: 26px;
+    }
+    .services div {
+        width:350px;
+        height: 470px;
+        margin: 15px;
+        padding: 15px;
+        background-color: rgb(247, 247, 247);
+    }
+    .services img {
+        width: 60px;
+        padding: 10px;
+        margin: 5px;
+        margin-left: 20px;
+        margin-bottom:25px;
+        background-color: rgb(124, 124, 124);
+        border-radius: 25px;
+    }
+    .services h4 {
+        font-size: 14px;
+    }
+    .services p {
+        font-size: 11px;
+        padding: 5px;
+    }
+    .services ul {
+        padding: 2px;
+    }
+    .services li {
+        font-size:11px;
+        padding: 2px;
+    }
+    .service1 span {
+        position: relative;
+        top: 50px;
+        left: 13px;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    .service1 button {
+        position: relative;
+        left: 58px;
+        left: 1px;
+        top: 64px;
+        width: 141px;
+        color: rgb(124, 124, 9);
+        border-radius: 10px;
+        font-weight: 900;
+    }
+    .service2 span {
+        position: relative;
+        top: 39px;
+        left: 13px;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    .service2 button {
+        position: relative;
+        left: 1px;
+        top: 52px;
+        width: 141px;
+        height: 40px;
+        color: rgb(124, 124, 9);
+        border-radius: 10px;
+        font-weight: 900;
+    }
+    .service3 span {
+        position: relative;
+        top: 51px;
+        left: 13px;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    .service3 button {
+        position: relative;
+        left: 1px;
+        top: 66px;
+        width: 141px;
+        height: 40px;
+        color: rgb(124, 124, 9);
+        border-radius: 10px;
+        font-weight: 900;
+    }
+    /*  */
+    .benefits {
+        display: flex;
+    }
+    .benefits-image {
+        margin: 20px;
+        margin-left: 17px;
+    }
+    .benefits-image img {
+        width: 646px;
+        height: 319px;
+    }
+    .benefit-text {
+        background-color: white;
+        height: 100px;
+        position: absolute;
+        left: 38%;
+        top: 489%;
+        width: 379px;
+    }
+    .benefit-text h1 {
+        padding: 10px;
+        font-size: 14px;
+        margin: 5px;
+    }
+    .benefit-text p {
+        padding: 6px;
+        font-size: 13px;
+        margin: 6px;
+    }
+    .benefits-text {
+        display: block;
+        margin: 10px;
+        margin-left: 0px;
+    }
+    .benefits-text div{
+        width: 500px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    /*  */
+    .input h1, h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .form {
+        padding: 15px;
+        margin-top: 30px;
+        position: relative;
+        width: 500px;
+        left: 10%;
+        background-color: rgba(82, 80, 80, 0.15);;
+        margin-top: 50px;
+    }
+    .input {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .form input {
+        width: 430px;
+        margin: 10px;
+        margin-left: 21px;
+        padding: 10px;
+        height: 50px;
+    }
+    .form button {
+        margin-left: 20px;
+        width: 430px;
+        height: 50px;
+        font-size: 20px;
+        color: rgb(124, 124, 0);
+    }
+    /*  */
+    footer {
+        height: 70px;
+    }
+    small button {
+        font-size: 13px;
+        margin-right: 20px;
+        font-weight: 900;
+        border: none;
+        background-color: white;
+    }
+    small {
+        position: relative;
+        left: 38%;
+        top:20%;
+    }
+}
