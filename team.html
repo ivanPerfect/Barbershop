@@ -43,7 +43,6 @@
         </div>
     </section>
     <section class="barber">
-
         <div class="barber1">
             <img src="./images/barber1.png" alt="barber1">
             <div>
@@ -51,10 +50,10 @@
                 <p>
                     "Кожна стрижка - це сукупність деталей, які я так чи інакше підводжу виключно до твого лайфстайлу. Тобі потрібно «змахнути рукою» і укладання готова? Або ти любиш укладати волосся назад бриоліном з блиском олдскульним? Не проблема. Тобі потрібно тільки прийти, а з решті впораюсь я, адже не дарма кажуть: «Стрижка впливає на те, як складається день, а в результаті і життя». Тому після кожної стрижки - твій успіх буде неминучим.
                 </p>
-                <button>Записатися до барбера</button>
+                <div class="button_container_barber_1">
+                    <button class="btn_barber_1"><span>Записатися до барбера</span></button>
+                </div>
             </div>
-            
-           
         </div>
 
         <div class="barber2">
@@ -64,7 +63,9 @@
                 <p>
                     "Перепробувавши багато професій, я зовсім випадково потрапив у світ барберингу і тільки через 2 роки зрозумів, що це "моє", що це саме та робота, яка приносить мені задоволення. Найприємніше почуття - це коли гість піднімається з крісла зовсім іншою людиною, іноді навіть здається, що він тепер готовий вирушити підкорювати світ.У такі моменти розумієш, що барбершоп - це місце, де можна не тільки підстригтися, випити та відпочити, а й повністю змінити своє мислення."
                 </p>
-                <button>Записатися до барбера</button>
+                <div class="button_container_barber_2">
+                    <button class="btn_barber_2"><span>Записатися до барбера</span></button>
+                </div>
             </div>
         </div>
 
@@ -77,7 +78,9 @@
                     Велика частина життя Інни пройшла саме у барбершопі, тому вона добре знає всі тонкощі роботи з клієнтами.
                     Завжди весела та комунікабельна і в комплексі із стильною зачіскою Ви отримаєте цікаву розмову, та заряд позитиву.
                 </p>
-                <button>Записатися до барбера</button>
+                <div class="button_container_barber_3">
+                    <button class="btn_barber_3"><span>Записатися до барбера</span></button>
+                </div>
             </div>
         </div>
 
@@ -92,18 +95,28 @@
                     - Перший клієнт прийшов на небезпечне гоління. Більше ніколи і ніхто не бачив цієї людини. "- Ну ви зрозуміли, так? З гумором у нього і справді все добре.
                     До нас потрапив тому, що не знає як можна не прийти працювати в барбершоп №1 в Україні, якщо ти хороший майстер.
                 </p>
-                <button>Записатися до барбера</button>
+                <div class="button_container_barber_4">
+                    <button class="btn_barber_4"><span>Записатися до барбера</span></button>
+                </div>
             </div>
         </div>
-    </section>
-    <section class="discount">
-        <div>
-            <div class="discount-text">
-                <h4>Запишіться на стрижку сьогодні та</h4>
-                <h1>ОТРИМАЙТЕ ЗНИЖКУ 25%</h1>
-            </div>
-            <div class="discount-button">
-                <button>Стати красивішим</button>
+        <div class="popup">
+            <div class="popup__container">
+              <div class="popup__wrapper">
+                <div id="blablabla">
+                  <form role="form" action="/requestFine" autocomplete="off" method="POST" onsubmit="return false">
+                    <label>Ім'я:</label><br>
+                    <input type="text" name="nameReq"> <br>
+                    <label>Телефон:</label><br>
+                    <input type="text" name="telReq"><br>
+                    <label>Дата:</label><br>
+                    <input type="date" name="telReq"><br>
+                    <label>Час:</label><br>
+                    <input type="time" name="telReq"><br>
+                    <button type="submit" class="btn4 btn-success" >Записатися на стрижку</button>
+                  </form>
+                </div>
+              </div>
             </div>
         </div>
     </section>

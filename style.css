@@ -218,17 +218,49 @@ li a {
     color: white;
     font-size: 40px;
 }
-.discount-button {
+.button_container2 {
+    position: absolute;
+    left: 34%;
+    right: 0;
+    top: 405%;
+  }
+.btn2 {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing:0.1cm;
+    outline: none;
+    overflow: hidden;
     position: relative;
-    left: 39%;
-    margin: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: #222;
+    padding: 10px 20px;
+    margin: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  } 
+.btn2 span {
+    position: relative; 
+    z-index: 1;
 }
-.discount-button button {
-    background-color: black;
-    color: white;
-    width: 256px;
-    height: 66px;
-    font-size: 28px;
+.btn2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  }
+.btn2:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 /* footer */
 footer {
@@ -301,11 +333,49 @@ small {
 .barber1 div {
     margin-top: 80px;
 }
-.barber1 button {
-    height: 50px;
-    font-size: 15px;
-    font-weight: 900;
-    margin: 20px 0px;
+.button_container_barber_1 {
+    position: absolute;
+    left: 35%;
+    right: 0;
+    top: 200%;
+  }
+.btn_barber_1 {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing:0.1cm;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #222;
+    padding: 10px 20px;
+    margin: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  }
+.btn_barber_1 span {
+    position: relative; 
+    z-index: 1;
+}
+.btn_barber_1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btn_barber_1:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 .barber2 {
     background-color: #DCDCDC;
@@ -324,11 +394,49 @@ small {
 .barber2 div {
     margin-top: 80px;
 }
-.barber2 button {
-    height: 50px;
-    font-size: 15px;
-    font-weight: 900;
-    margin: 20px 0px;
+.button_container_barber_2 {
+    position: absolute;
+    left: 53%;
+    right: 0;
+    top: 57%;
+  }
+.btn_barber_2 {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing:0.1cm;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #222;
+    padding: 10px 20px;
+    margin: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  }
+.btn_barber_2 span {
+    position: relative; 
+    z-index: 1;
+}
+.btn_barber_2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btn_barber_2:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 .barber3 {
     background-color: #DCDCDC;
@@ -345,11 +453,49 @@ small {
 .barber3 div {
     margin-top: 80px;
 }
-.barber3 button {
-    height: 50px;
-    font-size: 15px;
-    font-weight: 900;
-    margin: 20px 0px;
+.button_container_barber_3 {
+    position: absolute;
+    left: 34%;
+    right: 0;
+    top: 379%;
+  }
+.btn_barber_3 {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing:0.1cm;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #222;
+    padding: 10px 20px;
+    margin: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  }
+.btn_barber_3 span {
+    position: relative; 
+    z-index: 1;
+}
+.btn_barber_3:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btn_barber_3:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 .barber4 {
     background-color: #DCDCDC;
@@ -368,17 +514,55 @@ small {
 .barber4 div {
     margin-top: 80px;
 }
-.barber4 button {
-    height: 50px;
-    font-size: 15px;
-    font-weight: 900;
-    margin: 20px 0px;
+.button_container_barber_4 {
+    position: absolute;
+    left: 52%;
+    right: 0;
+    top: 67%;
+  }
+.btn_barber_4 {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing:0.1cm;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #222;
+    padding: 10px 20px;
+    margin: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  }
+.btn_barber_4 span {
+    position: relative; 
+    z-index: 1;
+}
+.btn_barber_4:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btn_barber_4:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
 /* academy */
 .academy {
     width: 500px;
     position: relative;
-    left: 30%;
+    left: 31%;
     margin: 15px;
     padding: 15px;
     text-align: center;
@@ -393,31 +577,16 @@ small {
     font-size: 34px;
     margin: 15px 0px;
 }
-.academy button {
-    padding: 10px;
-    border: 1px solid black;
-    margin: 10px;
-}
-.academy button a {
-    text-decoration: none;
-    color: black;
-}
-.academy button:hover {
-    box-shadow: 0 2px 40px -3px rgb(0, 0, 0, 80%);
-    background-color: rgb(121, 121, 121);
-}
-.academy button a:hover {
-    color: white;
-}
 .academy1 {
     width: 900px;
     position: relative;
-    left: 13%;
+    left: 17%;
     margin: 15px;
     padding: 15px;
     text-align: center;
     align-items: center;
     margin-top: -20px;
+    margin-bottom: 50px;
 }
 .academy2 {
     background-image: url('./images/academy1.jpg');
@@ -697,14 +866,125 @@ form {
     height: 50px;
     margin: 10px;
 }
-.form button {
-    position: relative;
-    left: 18%;
-    height: 50px;
-    font-size: 17px;
+.button_container1 {
+    position: absolute;
+    left: 35%;
+    right: 0;
+    top: 794%;
+  }
+.btn1 {
+    border: none;
+    display: block;
+    text-align: center;
     cursor: pointer;
+    letter-spacing:0.1cm;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #222;
+    padding: 10px 20px;
+    margin: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  }
+.btn1 span {
+    position: relative; 
+    z-index: 1;
 }
-
+.btn1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btn1:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+/* forma */
+#blablabla {
+    display: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+#blablabla.open {
+    display: block;
+}
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(17, 17, 17, 0.5);
+    transition: all 0.5s ease;
+    display: none;
+}
+.popup_open {
+    display: block;
+}
+.popup__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    max-width: 588px;
+    width: 100%;
+} 
+.popup__wrapper {
+    padding: 40px;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.open {
+    text-align: center;
+}
+.open input {
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.btn4 {
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    background: #ffff;
+    color: #000;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+.btn4:hover {
+    background: black;
+    color: white;
+    box-shadow: inset 0 0 0 3px #000;
+}
 /* max width */
 @media (max-width: 750px) {
     .header h1 {
