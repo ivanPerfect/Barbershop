@@ -76,13 +76,10 @@ li a {
     width: 900px;
     height: 154px;
     padding: 27px;
-    transform: translateY(-50%);
-    animation-name: Appearance;
-    animation-duration: 2s;
-    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
     padding-top: 30px;
     border: 4px solid white;
 }
+
 .phone a{
     text-decoration: none;
     color: white;
@@ -222,7 +219,7 @@ li a {
     position: absolute;
     left: 34%;
     right: 0;
-    top: 405%;
+    top: 360%;
   }
 .btn2 {
     border: none;
@@ -870,7 +867,7 @@ form {
     position: absolute;
     left: 35%;
     right: 0;
-    top: 794%;
+    top: 700%;
   }
 .btn1 {
     border: none;
@@ -1269,4 +1266,27 @@ form {
     .form button {
         left: 28%;
     }
+}
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.show:nth-child(2){
+    transition-delay: 300ms;
+}
+.show:nth-child(3){
+    transition-delay: 400ms;
+}
+.show:nth-child(4){
+    transition-delay: 500ms;
+}
+.show:nth-child(5){
+    transition-delay: 600ms;
 }
