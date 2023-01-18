@@ -78,6 +78,8 @@ li a {
     padding: 27px;
     padding-top: 30px;
     border: 4px solid white;
+    position: relative;
+    top: -80px;
 }
 
 .phone a{
@@ -159,7 +161,6 @@ li a {
 .specifics {
     padding-top: 150px;
     text-align: center;
-
 }
 .specifics h5 {
     width: 813px;
@@ -179,10 +180,10 @@ li a {
     margin-bottom: 50px;
 }
 .specific div {
-    width: 338px;
+    width: 360px;
     height: 277px;
     padding: 20px;
-    margin: 20px;
+    margin: 26px;
     border: 1px solid #e6e6e6;
 }
 .specific div:hover {
@@ -200,7 +201,7 @@ li a {
 /* скидка */
 .discount {
     background-image: url("images/image_discount.jpg");
-    background-size: 1349px 500px;
+    background-size: 1530px 500px;
     height: 500px;
 }
 .discount-text {
@@ -332,10 +333,9 @@ small {
 }
 .button_container_barber_1 {
     position: absolute;
-    left: 35%;
-    right: 0;
-    top: 200%;
-  }
+    left: 5%;
+    top: 56%;
+}
 .btn_barber_1 {
     border: none;
     display: block;
@@ -352,10 +352,6 @@ small {
     padding: 10px 20px;
     margin: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.20);
-  }
-.btn_barber_1 span {
-    position: relative; 
-    z-index: 1;
 }
 .btn_barber_1:after {
     content: "";
@@ -393,9 +389,9 @@ small {
 }
 .button_container_barber_2 {
     position: absolute;
-    left: 53%;
+    left: 12%;
     right: 0;
-    top: 57%;
+    top: 55%;
   }
 .btn_barber_2 {
     border: none;
@@ -452,9 +448,8 @@ small {
 }
 .button_container_barber_3 {
     position: absolute;
-    left: 34%;
-    right: 0;
-    top: 379%;
+    left: 5%;
+    top: 56%;
   }
 .btn_barber_3 {
     border: none;
@@ -513,10 +508,10 @@ small {
 }
 .button_container_barber_4 {
     position: absolute;
-    left: 52%;
+    left: 10%;
     right: 0;
-    top: 67%;
-  }
+    top: 60%;
+}
 .btn_barber_4 {
     border: none;
     display: block;
@@ -533,7 +528,7 @@ small {
     padding: 10px 20px;
     margin: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.20);
-  }
+}
 .btn_barber_4 span {
     position: relative; 
     z-index: 1;
@@ -559,7 +554,7 @@ small {
 .academy {
     width: 500px;
     position: relative;
-    left: 31%;
+    left: 34%;
     margin: 15px;
     padding: 15px;
     text-align: center;
@@ -577,7 +572,7 @@ small {
 .academy1 {
     width: 900px;
     position: relative;
-    left: 17%;
+    left: 21%;
     margin: 15px;
     padding: 15px;
     text-align: center;
@@ -586,26 +581,25 @@ small {
     margin-bottom: 50px;
 }
 .academy2 {
-    background-image: url('./images/academy1.jpg');
-    background-size: 1260px;
-    height: 500px;
+    background-image: url('./images/academy.jpg');
+    background-size: 1560px;
+    height: 700px;
 }
 .academy-text {
     position: relative;
-    left: 8%;
-    top: 18%;
+    left: 25%;
+    top: 54%;
     width: 800px;
     font-size: 20px;
     text-align: center;
     color: #FFFFFF;
     font-weight: 600;
-    text-shadow: 0px 4px 17px rgba(0,0,0,0.6);
     letter-spacing: 1.5px;
 }
 .academy-proverb {
     position: relative;
-    top: 48%;
-    left: 99px;
+    top: 63%;
+    left: 230px;
     width: 1038px;
     font-size: 20px;
     text-align: center;
@@ -630,7 +624,7 @@ small {
 }
 .academy-begin {
     position: relative;
-    left: 18%;
+    left: 24%;
     width: 389px;
     border-right: 1px solid #b9b9b9;
 }
@@ -671,7 +665,7 @@ small {
 }
 .academy-begin3 {
     position: relative;
-    left: 18%;
+    left: 24%;
     width: 389px;
     border-right: 1px solid #b9b9b9;
 }
@@ -712,7 +706,7 @@ small {
 }
 .academy-begin5 {
     position: relative;
-    left: 18%;
+    left:24%;
     width: 389px;
     border-right: 1px solid #b9b9b9;
 }
@@ -741,9 +735,12 @@ small {
     left: 43%;
     margin: 100px 0px;
 }
+.conditions {
+    margin-left: 100px; ;
+}
 .conditions h1 {
     position: relative;
-    left: 20%;
+    left: 21%;
     width: 700px;
     font-size: 34px;
     margin-bottom: 50px;
@@ -755,7 +752,7 @@ small {
 }
 .conditions div {
     position: relative;
-    left: 20%;
+    left: 250px;
     font-size: 20px;
 }
 .conditions1 {
@@ -812,7 +809,7 @@ small {
 
 .review_title {
     position: relative;
-    left: 29%;
+    left: 32%;
     width: 518px;
     font-size: 34px;
     margin-bottom: 50px;
@@ -826,7 +823,7 @@ small {
     display: flex;
     margin: 20px 30px;
     position: relative;
-    left:60px;
+    left:170px;
 }
 .review div {
     width: 330px;
@@ -840,14 +837,14 @@ small {
 /* форма для заповнненя , щоб стати барбером */
 .form {
     background-image: url("images/image_discount.jpg");
-    background-size: 1349px 500px;
+    background-size: 1550px 500px;
     height: 500px;
 }
 .form h1 {
     color: white;
     font-size: 35px;
     position: relative;
-    left: 18%;
+    left: 21%;
     top:20%;
 }
 .form div {
@@ -856,7 +853,8 @@ small {
     top:20%;
 }
 form {
-    margin-top: 30px ;
+    margin-top: 30px;
+    margin-left: 4%;
 }
 .form input {
     width: 700px;
@@ -867,7 +865,7 @@ form {
     position: absolute;
     left: 35%;
     right: 0;
-    top: 700%;
+    top: 730%;
   }
 .btn1 {
     border: none;
