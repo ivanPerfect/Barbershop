@@ -980,291 +980,7 @@ form {
     color: white;
     box-shadow: inset 0 0 0 3px #000;
 }
-/* max width */
-@media (max-width: 750px) {
-    .header h1 {
-        position: relative;
-        top: 57px;
-        left: 50px;
-        color: white;
-        font-size: 25px;
-        letter-spacing: 5px;
-    }
-    .header ul {
-        position: absolute;
-        top: 30px;
-        left: 35%;
-    }
-    .banner-img img {
-        position: absolute;
-        top: 40%;
-        left: 17%;
-        transform: translateY(-50%);
-        animation-name: Appearance;
-        animation-duration: 2s;
-        animation-timing-function: cubic-bezier(.1,-.6,.2,0);
-    }
-    .mini-contacts {
-        display: none;
-    }
-    /* прайс */
-    .main-service{
-        margin-top: -132px;
-    }
-    .service h1{
-        left: 24%;
-    }
-    .services {
-        margin-left: 50px;
-    }
-    .service-name{
-        width: 250px;
-        padding: 5px;
-    }
-    .services td {
-        font-size: 14px;
-        padding: 15px;
-    }
-    /* особенности барберов */
-    .specifics h5 {
-        width: 713px;
-        margin-left: 10px;
-        font-size: 15px;
-    }
-    /* скидка */
-    .discount {
-        background-size: 750px 500px;
-        height: 300px;
-    }
-    .discount-text {
-        margin-top: 50px;
-    }
-    .discount-button {
-        left: 29%;
-    }
-    .discount-button button {
-        cursor: pointer;
-    }
-    /* footer */
-    .footer_phone {
-        margin-top :20px;
-    }
-    .footer_phone a{
-        left: 38%;
-    }
-    .footer_phone p {
-        left: 38%;
-    }
-    small {
-        left: 38%;
-    }
-    /* барбери */
-    .barber img {
-        width: 178px;
-        height: 250px;
-    }
-    .barber1 {
-        background-color: #DCDCDC;
-        width: 600px;
-    }
-    .barber1 div {
-        width: 500px;
-    }
-    .barber1 h3 {
-        margin: 10px 0px;
-        font-size: 25px;
-    }
-    .barber1 div {
-        margin-top: 10px;
-    }
-    .barber1 button {
-        height: 50px;
-        font-size: 15px;
-        font-weight: 900;
-        margin: 20px 0px;
-        cursor: pointer;
-    }
-    .barber2 {
-        background-color: #DCDCDC;
-        width: 600px;
-        left:0%;
-    }
-    .barber2 div {
-        width: 500px;
-       
-    }
-    .barber2 h3 {
-        margin: 10px 0px;
-        font-size: 25px;
-    }
-    .barber2 div {
-        margin-top: 10px;
-    }
-    .barber2 button {
-        height: 50px;
-        font-size: 15px;
-        font-weight: 900;
-        margin: 20px 0px;
-        cursor: pointer;
-    }
-    .barber3 {
-        background-color: #DCDCDC;
-        width: 600px;
-    }
-    .barber3 div {
-        width: 500px;
-    }
-    .barber3 h3 {
-        margin: 10px 0px;
-        font-size: 25px;
-    }
-    .barber3 div {
-        margin-top: 10px;
-    }
-    .barber3 button {
-        height: 50px;
-        font-size: 15px;
-        font-weight: 900;
-        margin: 20px 0px;
-        cursor: pointer;
-    }
-    .barber4 {
-        background-color: #DCDCDC;
-        width: 600px;
-        left:0%;
-    }
-    .barber4 div {
-        width: 500px;
-    }
-    .barber4 h3 {
-        margin: 10px 0px;
-        font-size: 25px;
-    }
-    .barber4 div {
-        margin-top: 10px;
-    }
-    .barber4 button {
-        height: 50px;
-        font-size: 15px;
-        font-weight: 900;
-        margin: 20px 0px;
-        cursor: pointer;
-    }
-    /* academy */
-    .academy {
-        width: 500px;
-        position: relative;
-        left: 12%;
-    }
-    .academy1 {
-        width: 600px;
-        position: relative;
-        margin-left: -60px;
-    }
-    .academy2 {
-        background-size: 750px;
-        height: 300px;
-        background-repeat: no-repeat;
-    }
-    .academy-text {
-        position: relative;
-        left: 1%;
-        top: 5%;
-        width: 500px;
-        font-size: 12px;
-    }
-    .academy-proverb {
-        top: 45%;
-        width: 538px;
-        font-size: 12px;
-    }
-    .academy-begin {
-        left: -5%;
-        border-right: none;
-    }
-    .academy-begin2 {
-        position: relative;
-        left: 38%;
-        width: 389px;
-        border-left: none;
-    }
-    .academy-begin3 {
-        left: -5%;
-        border-right: none;
-    }
-    .academy-begin4 {
-        left: 38%;
-    }
-    .academy-begin5 {
-        left: -5%;
-        border-right: none;
-    }
-    .conditions h1 {
-        left: 5%;
-        font-size: 30px;
-    }
-    .conditions div {
-        left: 5%;
-        font-size: 15px;
-    }
-    .conditions1 {
-        margin-left: 80px;
-    }
-    .conditions1 p {
-        width: 500px;
-    }
-    .conditions2 {
-        margin-left: 80px;
-    }
-    .conditions2 p {
-        width: 500px;
-    }
-    .conditions3 {
-        margin-left: 80px;
-    }
-    .conditions3 p {
-        width: 500px;
-    }
-    .conditions4 {
-        margin-left: 80px;
-    }
-    .conditions4 p {
-        width: 500px;
-    }
-    /* відгуки */
-    .review_title {
-        left: 21%;
-        font-size: 30px;
-    }
-    .review img{
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-    }
-    .review {
-        left:10px;
-    }
-    /* форма для заповнненя , щоб стати барбером */
-    .form {
-        background-size: 750px 400px;
-        height: 400px;
-    }
-    .form h1 {
-        font-size: 25px;
-        left: 4%;
-        top:10%;
-    }
-    .form div {
-        left: 4%;
-        top:10%;
-    }
-    .form input {
-        width: 600px;
-    }
-    .form button {
-        left: 28%;
-    }
-}
+
 .hidden {
     opacity: 0;
     filter: blur(5px);
@@ -1287,4 +1003,479 @@ form {
 }
 .show:nth-child(5){
     transition-delay: 600ms;
+}
+/* max width */
+@media screen and (min-width: 1024px) {
+    .header ul {
+        left: 60%;
+    }
+    .banner-img img {
+        top: 50%;
+    }
+    /* всплывающие окно контактов */
+    .mini-contacts {
+        width: 800px;
+    }
+    .phone a{
+        font-size: 15px;
+    }
+    .phone p {
+        font-size: 10px;
+    }
+    .clock {
+        margin-left: -40px;
+    }
+    .clock p{
+        font-size: 10px;
+    }
+    .clock a {
+        font-size: 10px;
+    }
+    .location a{
+        font-size: 10px;
+    }
+    /* прайс */
+    .service h1{
+        left: 32%;
+    }
+    .services {
+        margin-left: 50px;
+    }
+    .service-name{
+        font-size: 15px;
+        width: 200px;
+    }
+    /* особенности барберов */
+    .specifics h5 {
+        margin-left: 150px;
+    }
+    /* скидка */
+    .button_container2 {
+        position: absolute;
+        left: 30%;
+        right: 0;
+        top: 390%;
+    }
+    /* барбери */
+    .barber1 {
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    .barber2 {
+        left:3.9%;
+    }
+    .barber3 {
+        margin-left: 60px;
+    }
+    .barber3 div {
+        width: 500px;
+    }
+    .barber4 {
+        left:3.9%;
+    }
+    .barber4 div {
+        width: 500px;
+    }
+    /* academy */
+    .academy {
+        left: 26%;
+    }
+    .academy1 {
+        left: 5%;
+    }
+    .academy2 {
+        background-size: 1054px;
+        height: 500px;
+    }
+    .academy-text {
+        left: 10%;
+        top: 54%;
+        font-size: 15px;
+    }
+    .academy-proverb {
+        left: 80px;
+        width: 838px;
+        font-size: 15px;
+    }
+    .academy-begin {
+        left: 14%;
+    }
+    .academy-begin3 {
+        left: 14%;
+    }
+    .academy-begin5 {
+        left:14%;
+    }
+    .conditions {
+        margin-left: -150px;
+    }
+    .conditions h1 {
+        left: 30%;
+    }
+    /* відгуки */
+    .review_title {
+        left: 27%;
+    }
+    .review {
+        left:10px;
+    }
+    /* форма для заповнненя , щоб стати барбером */
+    .form {
+        background-size: 1050px 500px;
+    }
+    .form h1 {
+        left: 8%;
+    }
+    .form div {
+        left: 12%;
+    }
+    .button_container1 {
+        top: 768%;
+    }
+}
+@media screen and (max-width: 767px){   
+    .header ul {
+        left: 47%;
+    }
+    .banner-img img {
+        top: 33%;
+        left: 23%;
+    }
+    /* всплывающие окно контактов */
+    .mini-contacts {
+        width: 767px;
+        height: 150px;
+        margin-top: 50px;
+    }
+    .phone a{
+        font-size: 15px;
+    }
+    .phone {
+        width: 250px;
+        font-size: 12px;
+    }
+    .clock p{
+        font-size: 12px;
+        padding-left: 13px;
+    }
+    .clock a {
+        font-size: 12px;
+    }
+    .location a{
+        font-size: 12px;
+    }
+    /* прайс */
+    .service {
+        margin-top: 50px;
+    }
+    .service h1{
+        font-size: 45px;
+        left: 30%;
+    }
+    .services {
+        margin-left: 50px;
+        font-size: 12px;
+    }
+    .services h2 {
+        font-size: 20px;
+    }
+    .service-name{
+        width: 120px;
+    }
+    .service-name1 {
+        width: 150px;
+    }
+    /* особенности барберов */
+    .specifics h5 {
+        width: 503px;
+        margin-left: 130px;
+        font-size: 14px;
+    }
+    .specifics h1 {
+        font-size: 45px;
+    }
+    /* скидка */
+    .discount {
+        background-size: 766px 300px;
+        height: 300px;
+    }
+    .discount-text {
+        margin-top: 50px;
+    }
+    .discount-text h4 {
+        font-size: 18px;
+    }
+    .discount-text h1 {
+        font-size: 30px;
+    }
+    .button_container2 {
+        position: absolute;
+        left: 24%;
+        top: 540%;
+    }
+    /* footer */
+    .footer_contacts {
+        margin-left: 10%;
+    }
+    iframe {
+        width: 766px;
+    }
+    /* барбери */
+    .barber img {
+        width: 278px;
+        height: 400px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .barber1 {
+        width: 730px;
+        margin: 20px;
+        margin-top: 50px;
+    }
+    .barber1 h3 {
+        font-size: 25px;
+    }
+    .barber1 div {
+        margin-top: 10px;
+    }
+    .button_container_barber_1 {
+        position: absolute;
+        left: 8%;
+        top: 69%;
+    }
+    .btn_barber_1 {
+        font-size: 15px;
+    }
+    .barber2 {
+        width: 730px;
+        left:0.2%;
+    }
+    .barber2 div {
+        width: 500px;
+    }
+    .barber2 h3 {
+        font-size: 25px;
+    }
+    .barber2 div {
+        margin-top: 10px;
+    }
+    .button_container_barber_2 {
+        top: 75%;
+    }
+    .btn_barber_2 {
+        font-size: 15px;
+    }
+    .barber3 {
+        width: 730px;
+    }
+    .barber3 h3 {
+        margin: 10px 0px;
+        font-size: 25px;
+    }
+    .barber3 div {
+        margin-top: 10px;
+    }
+    .button_container_barber_3 {
+        top: 69%;
+    }
+    .btn_barber_3 {
+        font-size: 15px;
+        left: 7%;
+    }
+    .barber4 {
+        width: 730px;
+        left:0.2%;
+    }
+    .barber4 h3 {
+        font-size: 25px;
+    }
+    .barber4 p {
+        font-size: 14px;
+    }
+    .barber4 div {
+        margin-top: 10px;
+    }
+    .button_container_barber_4 {
+        position: absolute;
+        left: 10%;
+        right: 0;
+        top: 72%;
+    }
+    .btn_barber_4 {
+        font-size: 15px;
+    }
+    /* academy */
+    .academy {
+        left: 17%;
+    }
+    .academy h3 {
+        font-size: 15px;
+    }
+    .academy h1 {
+        font-size: 34px;
+    }
+    .academy1 {
+        width: 630px;
+        left: 6%;
+        font-size: 12px;
+    }
+    .academy2 {
+        background-size: 760px;
+        height: 380px;
+    }
+    .academy-text {
+        left: 17%;
+        top: 54%;
+        width: 500px;
+        font-size: 10px;
+    }
+    .academy-proverb {
+        top: 63%;
+        left: 130px;
+        width: 508px;
+        font-size: 10px;
+    }
+    .academy-study h1 {
+        font-size: 20px;
+    }
+    .academy-begin {
+        left: 2%;
+        font-size: 15px;
+        width: 360px;
+    }
+    .academy-begin2 {
+        left: 46%;
+        width: 350px;
+        font-size: 15px;
+    }
+    .academy-begin3 {
+        left: 2%;
+        font-size: 15px;
+        width: 360px;
+    }
+    .academy-begin4 {
+        left: 46%;
+        width: 350px;
+        font-size: 15px;
+    }
+    .academy-begin5 {
+        left: 2%;
+        font-size: 15px;
+        width: 360px;
+    }
+    .academy-studies {
+        margin-bottom: 50px;
+    }
+    .line {
+        left: 40%;
+    }
+    .conditions {
+        margin-left: 50px; 
+    }
+    .conditions h1 {
+        left: 10%;
+        width: 500px;
+        font-size: 24px;
+    }
+    .conditions img {
+        width: 70px;
+        height: 70px;
+        margin: 15px;
+    }
+    .conditions div {
+        position: relative;
+        left: 0px;
+        font-size: 20px;
+    }
+    .conditions1 {
+        margin-left: -10px;
+    }
+    .conditions1 p {
+        margin-left: 110px;
+        width: 500px;
+        font-size: 15px;
+    }
+    .conditions1 h3 {
+        margin-left: 110px;
+    }
+    .conditions2 {
+        margin-left: -10px;
+    }
+    .conditions2 p {
+        margin-left: 110px;
+        width: 500px;
+        font-size: 15px;
+    }
+    .conditions2 h3 {
+        margin-left: 110px;
+    }
+    .conditions3 {
+        margin-left: -10px;
+    }
+    .conditions3 p {
+        margin-left: 110px;
+        width: 500px;
+        font-size: 15px;
+    }
+    .conditions3 h3 {
+        margin-left: 110px;
+    }
+    .conditions4 {
+        margin-left: -10px;
+    }
+    .conditions4 p {
+        margin-left: 110px;
+        width: 500px;
+        font-size: 15px;
+    }
+    .conditions4 h3 {
+        margin-left: 110px;
+    }
+    .line2 {
+        left: 38%;
+    }
+    /* відгуки */
+    .review_title {
+        left: 25%;
+        width: 418px;
+        font-size: 25px;
+    }
+    .review img{
+        width: 100px;
+        height: 100px;
+    }
+    .review {
+        display: flex;
+        margin: 20px 30px;
+        position: relative;
+        left:5px;
+    }
+    .review div {
+        width: 330px;
+        margin: 20px 20px;
+        text-align: center;
+    }
+    .review p {
+        margin: 5px;
+    }
+    /* форма для заповнненя , щоб стати барбером */
+    .form {
+        background-size: 760px 400px;
+        height: 400px;
+    }
+    .form h1 {
+        font-size: 25px;
+        left: 11%;
+        top:10%;
+    }
+    .form div {
+        left: -1%;
+        top:10%;
+    }
+    .button_container1 {
+        position: absolute;
+        left: 25%;
+        right: 0;
+        top: 638%;
+    }
 }
