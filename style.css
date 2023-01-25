@@ -243,7 +243,7 @@
         left: 34%;
         right: 0;
         top: 360%;
-      }
+    }
     .btn2 {
         border: none;
         display: block;
@@ -277,7 +277,7 @@
         transition: all .5s ease-in-out;
         -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
         transform: translateX(-98%) translateY(-25%) rotate(45deg);
-      }
+    }
     .btn2:hover:after {
         -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
         transform: translateX(-9%) translateY(-25%) rotate(45deg);
@@ -818,7 +818,6 @@
         width: 700px;
         font-size: 15px;
     }
-    
     .line2 {
         width: 200px;
         border-bottom: 1px solid #b9b9b9;
@@ -826,9 +825,7 @@
         left: 43%;
         margin: 50px 0px;
     }
-    
     /* відгуки */
-    
     .review_title {
         position: relative;
         left: 32%;
@@ -978,6 +975,13 @@
         text-align: center;
     }
     .open input {
+        margin: 10px;
+        width: 300px;
+        height: 50px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .open select {
         margin: 10px;
         width: 300px;
         height: 50px;
